@@ -8,6 +8,12 @@ public class User {
         this.username = username;
         this.id = id;
     }
+    public User(String username) {
+        this.username = username;
+    }
+    public User(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
